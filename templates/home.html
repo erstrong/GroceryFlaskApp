@@ -1,0 +1,63 @@
+{% extends 'layout.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+
+<div class="page-header">
+    <h1>Corporacion Favorita Grocery Sales</h1>
+</div>
+<p>Sample Inputs:</p>
+<table border="1">
+    <tr>
+        <th>Date 1</th>
+        <th>Date 2</th>
+        <th>Store</th>
+        <th>Item</th>
+        <th>Class</th>
+        <th>On Promotion</th>
+    </tr>
+    <tr>
+        <td>2017-08-16</td>
+        <td>2017-08-17</td>
+        <td>1</td>
+        <td>'N/A'</td>
+        <td>1045</td>
+        <td>Yes</td>
+    </tr>
+    <tr>
+        <td>TODO</td>
+        <td>TODO</td>
+        <td>TODO</td>
+        <td>TODO</td>
+        <td>TODO</td>
+        <td>TODO</td>
+    </tr>
+    <tr>
+        <td>TODO</td>
+        <td>TODO</td>
+        <td>TODO</td>
+        <td>TODO</td>
+        <td>TODO</td>
+        <td>TODO</td>
+    </tr>
+    <tr>
+        <td>TODO</td>
+        <td>TODO</td>
+        <td>TODO</td>
+        <td>TODO</td>
+        <td>TODO</td>
+        <td>TODO</td>
+    </tr>
+    <tr>
+        <td>TODO</td>
+        <td>TODO</td>
+        <td>TODO</td>
+        <td>TODO</td>
+        <td>TODO</td>
+        <td>TODO</td>
+    </tr>
+    
+</table>
+<br />
+<a class="btn" href="{{ url_for('forecast') }}">Get Forecast</a>
+
+{% endblock %}

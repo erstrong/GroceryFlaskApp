@@ -1,0 +1,28 @@
+date,type,locale,locale_name,description,transferred
+2017-08-05,Holiday,Local,Esmeraldas,Fundacion de Esmeraldas,False
+2017-08-10,Holiday,National,Ecuador,Primer Grito de Independencia,True
+2017-08-11,Transfer,National,Ecuador,Traslado Primer Grito de Independencia,False
+2017-08-15,Holiday,Local,Riobamba,Fundacion de Riobamba,False
+2017-08-24,Holiday,Local,Ambato,Fundacion de Ambato,False
+2017-09-28,Holiday,Local,Ibarra,Fundacion de Ibarra,True
+2017-09-29,Transfer,Local,Ibarra,Fundacion de Ibarra,False
+2017-10-07,Holiday,Local,Quevedo,Cantonizacion de Quevedo,False
+2017-10-09,Holiday,National,Ecuador,Independencia de Guayaquil,False
+2017-11-02,Holiday,National,Ecuador,Dia de Difuntos,False
+2017-11-03,Holiday,National,Ecuador,Independencia de Cuenca,False
+2017-11-06,Holiday,Regional,Santo Domingo de los Tsachilas,Provincializacion de Santo Domingo,False
+2017-11-07,Holiday,Regional,Santa Elena,Provincializacion Santa Elena,False
+2017-11-10,Holiday,Local,Guaranda,Independencia de Guaranda,False
+2017-11-11,Holiday,Local,Latacunga,Independencia de Latacunga,False
+2017-11-12,Holiday,Local,Ambato,Independencia de Ambato,False
+2017-12-05,Additional,Local,Quito,Fundacion de Quito-1,False
+2017-12-06,Holiday,Local,Quito,Fundacion de Quito,True
+2017-12-08,Holiday,Local,Loja,Fundacion de Loja,False
+2017-12-08,Transfer,Local,Quito,Traslado Fundacion de Quito,False
+2017-12-21,Additional,National,Ecuador,Navidad-4,False
+2017-12-22,Holiday,Local,Salinas,Cantonizacion de Salinas,False
+2017-12-22,Additional,National,Ecuador,Navidad-3,False
+2017-12-23,Additional,National,Ecuador,Navidad-2,False
+2017-12-24,Additional,National,Ecuador,Navidad-1,False
+2017-12-25,Holiday,National,Ecuador,Navidad,False
+2017-12-26,Additional,National,Ecuador,Navidad+1,False

@@ -4,6 +4,3 @@ App corresponding to [https://github.com/erstrong/FavoritaGrocery](https://githu
 
 ## Authors
 Emily Strong and Raksha Kaverappa
-
-## Template
-We used the [Flask Boilerplate Template](https://github.com/mjhea0/flask-boilerplate)

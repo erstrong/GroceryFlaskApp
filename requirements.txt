@@ -1,8 +1,13 @@
 Fabric
-#Flask-SQLAlchemy
 Flask-WTF
 WTForms
 coverage
 gunicorn
 pandas
 numpy
+#urlib
+#json
+sklearn
+#pickle
+scipy
+statsmodels

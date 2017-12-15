@@ -1,0 +1,37 @@
+{% extends 'layout.html' %}
+{% block title %}Forecast{% endblock %}
+{% block content %}
+<h1>Generate Sales Forecast</h1>
+<form action="" method="post" name="forecast">
+    {{ form.hidden_tag() }}
+    <p>
+    Start Date:<br>
+    {{ form.date1 }}<br>
+    </p>
+    <p>
+    End Date:<br>
+    {{ form.date2 }}<br>
+    </p>
+    <p>
+    Store:<br>
+    {{ form.store_nbr }}<br>
+    </p>
+    <p>
+    For Existing Products:<br>
+    Item ID:<br>
+    {{ form.item_nbr }}<br>
+    </p>
+    <p>
+    For New Products:<br>
+    Class ID:<br>
+    {{ form.class_id }}<br>
+    </p>
+    <p>
+    On Promotion?:<br>
+    {{ form.onpromotion }}<br>
+    </p>
+    
+    <p><input type="submit" value="Generate"></p>
+        </form>
+
+{% endblock %}
