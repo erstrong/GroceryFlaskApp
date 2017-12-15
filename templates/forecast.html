@@ -2,34 +2,35 @@
 {% block title %}Forecast{% endblock %}
 {% block content %}
 <h1>Generate Sales Forecast</h1>
-<form action="" method="post" name="forecast">
+<form action="{{ url_for('report') }}" method="post" name="forecast">
     {{ form.hidden_tag() }}
     <p>
-    Start Date:<br>
-    {{ form.date1 }}<br>
+    Date:<br>
+    {{ form.date1 }} Format: YYYY-MM-DD <br>
     </p>
-    <p>
+    <!--<p>
     End Date:<br>
-    {{ form.date2 }}<br>
-    </p>
+    {{ form.date2 }} Format: YYYY-MM-DD<br>
+    </p>-->
     <p>
     Store:<br>
     {{ form.store_nbr }}<br>
     </p>
+    On Promotion?:<br>
+    {{ form.onpromotion }}<br>
+    </p>
     <p>
-    For Existing Products:<br>
+    <strong>For Existing Products:</strong><br>
     Item ID:<br>
     {{ form.item_nbr }}<br>
     </p>
     <p>
-    For New Products:<br>
+    <strong>For New Products:</strong><br>
     Class ID:<br>
     {{ form.class_id }}<br>
     </p>
     <p>
-    On Promotion?:<br>
-    {{ form.onpromotion }}<br>
-    </p>
+    
     
     <p><input type="submit" value="Generate"></p>
         </form>

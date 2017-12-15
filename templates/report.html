@@ -1,5 +1,26 @@
 {% extends 'layout.html' %}
 {% block title %}Report{% endblock %}
 {% block content %}
+<table border = 1>
+    
+    <tr>
+        <th> Date </th>
+        <td> {% date %} </td>
+    </tr>
+    <tr>
+        <th> Store </th>
+        <td> {% store_nbr %} </td>
+    </tr>
+    <tr>
+        <th> Item </th>
+        <td> {% item_nbr %} </td>
+    </tr>
+    <tr>
+        <th> Forecast </th>
+        <td> {% output %} </td>
+    </tr>
 
+    
+    
+</table>
 {% endblock %}
